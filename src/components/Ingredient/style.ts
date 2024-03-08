@@ -12,9 +12,20 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     gap: 6,
   },
-  title: {},
+  title: {
+    fontSize: theme.fonts.size.body.sm,
+    fontFamily: theme.fonts.family.medium,
+  },
   subtitle: {
     fontFamily: "Poppins_400Regular",
   },
-  image: {},
+  image: {
+    width: 16,
+    height: 16,
+  },
+  selected: {
+    borderWidth: 2,
+    borderColor: theme.colors.green_600,
+    backgroundColor: theme.colors.green_100,
+  },
 });
